@@ -139,6 +139,7 @@ Keep Smiling! 🤗Theek hai!🤗
 
 
 जन्मदिन की हार्दिक शुभकामनाये  👻 Theek hai! 👻`,)),
+    (Person('Vishaaal', "assets/images/vishal.jpg",`Hi Chandni, wishing you laughter and happiness and a year that brings you much success. Here's to more adventures, like narkanda hike and _pausing_ on sofas, ahead. Party hard. Enjoy 🙂`,)),
   ];
 
   @override
