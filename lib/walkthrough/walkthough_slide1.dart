@@ -25,7 +25,7 @@ class WalkThroughSlide1 extends StatelessWidget {
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: 'Complete Daily Tasks',
+                text: 'Happy Birthday Moti ( Mujhe to pta he ki tujhe pta he ki Aaj tera birthday he )',
                 style: isIOS ? tsDarkGreyBlueBoldTs26 : tsDarkGreyBlueBoldTs24),
           ),
           SizedBox(height: isIOS ? screenHeight * 2.2 / 100 : screenHeight * 0.9 / 100),

@@ -95,8 +95,8 @@ class WalkThroughContainerState extends State<WalkThroughContainer> {
             children: <Widget>[
               SmallPrimaryButton(
                   buttonText: currentPage == 3
-                      ? 'Get started'
-                      : 'Continue',
+                      ? 'Open Best Wishes'
+                      : 'Blow Candel',
                   onButtonPressed: nextPage),
               SizedBox(height: isIOS ? screenHeight * .027 : screenHeight * .031),
               if (currentPage != 3)

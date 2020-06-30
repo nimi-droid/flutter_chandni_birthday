@@ -26,7 +26,7 @@ class WalkThroughSlide3 extends StatelessWidget {
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: 'Refer & Earn Big',
+                text: '1st workorholic Birthday ( Jaldi bta jaldi bta jaldi bta)',
                 style: isIOS ? tsDarkGreyBlueBoldTs26 : tsDarkGreyBlueBoldTs24),
           ),
           SizedBox(height: isIOS ? screenHeight * 2.2 / 100 : screenHeight * 0.9 / 100),

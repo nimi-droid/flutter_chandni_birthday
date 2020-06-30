@@ -27,7 +27,7 @@ class WalkThroughSlide2 extends StatelessWidget {
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: 'Stay On Top',
+                text: '1st unlockdown birthday ( had kar rhi he pratiksha tu tujhe nahi batati)',
                 style: isIOS ? tsDarkGreyBlueBoldTs26 : tsDarkGreyBlueBoldTs24),
           ),
           SizedBox(height: isIOS ? screenHeight * 2.2 / 100 : screenHeight * 0.9 / 100),

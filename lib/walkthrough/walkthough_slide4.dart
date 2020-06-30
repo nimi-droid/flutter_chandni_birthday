@@ -26,7 +26,7 @@ class WalkThroughSlide4 extends StatelessWidget {
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: 'Buy Premium Products',
+                text: '1st Big Friends Goal Birthday ( chup kar , kesi rahi )',
                 style: isIOS ? tsDarkGreyBlueBoldTs26 : tsDarkGreyBlueBoldTs24),
           ),
           SizedBox(height: isIOS ? screenHeight * 2.2 / 100 : screenHeight * 0.9 / 100),
