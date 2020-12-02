@@ -12,9 +12,7 @@ class WalkThroughSlide1 extends StatelessWidget {
       child: Column(
         children: <Widget>[
           SizedBox(height: isIOS ? screenHeight * 0.032 : screenHeight * .02),
-          Container(
-            color: AppColors.pinkColor,
-//            walk_through_image1,
+          Image.asset('assets/images/mainPage1.jpg',
             height: isIOS ? screenHeight * 0.463 : screenHeight * 0.47,
             width: isIOS ? screenWidth * 0.848 : screenWidth * 0.714,
             //fit: BoxFit.cover,
@@ -25,7 +23,7 @@ class WalkThroughSlide1 extends StatelessWidget {
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: 'Happy Birthday Moti ( Mujhe to pta he ki tujhe pta he ki Aaj tera birthday he )',
+                text: 'Happy Birthday Moti',
                 style: isIOS ? tsDarkGreyBlueBoldTs26 : tsDarkGreyBlueBoldTs24),
           ),
           SizedBox(height: isIOS ? screenHeight * 2.2 / 100 : screenHeight * 0.9 / 100),
@@ -33,7 +31,7 @@ class WalkThroughSlide1 extends StatelessWidget {
               textAlign: TextAlign.center,
               text: TextSpan(
                   text:
-                      "Get paid for liking & commenting on\nposts. Finish simple tasks to earn credits.",
+                      "Mujhe to pta he ki tujhe pta he ki\nAaj tera birthday he",
                   style: isIOS ? tsDarkGreyBlue60BoldTs16 : tsDarkGreyBlue60BoldTs14))
         ],
       ),

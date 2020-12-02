@@ -14,9 +14,8 @@ class WalkThroughSlide2 extends StatelessWidget {
           SizedBox(
             height: isIOS ? screenHeight * 0.9 / 100 : screenHeight * .02,
           ),
-          Container(
+          Image.asset('assets/images/mainPage2.jpg',
 //            walk_through_image2,
-            color: AppColors.pinkColor,
             height: isIOS ? screenHeight * .437 : screenHeight * .444,
             width: isIOS ? screenWidth * .848 : screenWidth * 0.744,
             //fit: BoxFit.cover,
@@ -27,15 +26,14 @@ class WalkThroughSlide2 extends StatelessWidget {
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: '1st unlockdown birthday ( had kar rhi he pratiksha tu tujhe nahi batati)',
+                text: '1st unlockdown birthday',
                 style: isIOS ? tsDarkGreyBlueBoldTs26 : tsDarkGreyBlueBoldTs24),
           ),
           SizedBox(height: isIOS ? screenHeight * 2.2 / 100 : screenHeight * 0.9 / 100),
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: "Aim at the top of leaderboard and get more\nbenefits. Top users earn more "
-                    "rewards.",
+                text: "Hadd kar rhi he Pratiksha tu 🥺\nTujhe nahi batati",
                 style: isIOS ? tsDarkGreyBlue60BoldTs16 : tsDarkGreyBlue60BoldTs14)
           )
         ],

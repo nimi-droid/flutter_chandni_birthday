@@ -12,16 +12,40 @@ class MessagePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          children: <Widget>[
-            SizedBox(height: 40),
-            Text(person.personalMessage,
-                textAlign: TextAlign.center,
-                style: TextStyle(color: AppColors.black, fontSize: 30)),
-            SizedBox(height: 20),
-            Text(person.name,
-                textAlign: TextAlign.center, style: TextStyle(color: AppColors.black, fontSize: 30))
-          ],
+        child: Padding(
+          padding: const EdgeInsets.all(15.0),
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                InkWell(
+                    onTap: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: Icon(Icons.arrow_back, size: 30)),
+                Stack(
+                  children: <Widget>[
+                    Column(
+                      children: <Widget>[
+                        SizedBox(height: 40),
+                        Text(person.personalMessage,
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: AppColors.black, fontSize: 30)),
+                        SizedBox(height: 20),
+                        Text(person.name,
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: AppColors.black, fontSize: 30))
+                      ],
+                    ),
+                    Hero(
+                      tag: person.assetImagePath,
+                      child: Opacity(opacity: .15, child: Image.asset(person.assetImagePath)),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
         ),
       ),
     );

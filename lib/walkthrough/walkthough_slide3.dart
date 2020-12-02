@@ -14,9 +14,8 @@ class WalkThroughSlide3 extends StatelessWidget {
           SizedBox(
             height: isIOS ? screenHeight * 1 / 100 : screenHeight * 1.5 / 100,
           ),
-          Container(
+          Image.asset('assets/images/mainPage3.jpg',
 //            walk_through_image3,
-            color: AppColors.pinkColor,
             height: isIOS ? screenHeight * .49 : screenHeight * .497,
             width: isIOS ? screenWidth * .739 : screenWidth * .617,
           ),
@@ -26,15 +25,14 @@ class WalkThroughSlide3 extends StatelessWidget {
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: '1st workorholic Birthday ( Jaldi bta jaldi bta jaldi bta)',
+                text: '1st workorholic Birthday',
                 style: isIOS ? tsDarkGreyBlueBoldTs26 : tsDarkGreyBlueBoldTs24),
           ),
           SizedBox(height: isIOS ? screenHeight * 2.2 / 100 : screenHeight * 0.9 / 100),
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(
-                text: 'Aim at the top of leaderboard and get more benefits. Top users earn more '
-                    'rewards.',
+                text: 'Jaldi bta jaldi bta jaldi bta',
                 style: isIOS ? tsDarkGreyBlue60BoldTs16 : tsDarkGreyBlue60BoldTs14),
           )
         ],
